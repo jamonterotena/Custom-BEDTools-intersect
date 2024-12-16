@@ -25,7 +25,7 @@ Specify the feature class. 6 classes are accepted:
 * Binary
 * Ratio
 * Ratio.value
-* Integer
+* Integer (count)
 * Numeric
 * Numeric.sum
 
@@ -64,12 +64,12 @@ chrA01  301  400  0.00
 chrA02  1  101  0.00
 ```
 
-## Execution as count
+## Execution as integer
 ```{bash}
-bash custom_intersect.sh genomic_regions.bed feature.bed count
+bash custom_intersect.sh genomic_regions.bed feature.bed integer
 ```
 
-## Output as count
+## Output as integer
 
 ```{bash}
 > genomic_regions.bed
