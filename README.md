@@ -1,6 +1,6 @@
 # Aim
 
-Overlap
+Sometimes different properties of features need to be examined, for example, the proportion of a genomic region covered by . Overlap features with genomic regions adding an additional column with information depending on the feature class (binary, numeric, integer...).
 
 # Input
 
